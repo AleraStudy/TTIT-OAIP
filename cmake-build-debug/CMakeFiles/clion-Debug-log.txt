@@ -1,0 +1,15 @@
+"C:\Users\jiexa\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/jiexa/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe" -G Ninja -S "X:\yaDisk\jiexamanya\Алексей\0. Проекты\ТТИТ\ОАИП\code" -B "X:\yaDisk\jiexamanya\Алексей\0. Проекты\ТТИТ\ОАИП\code\cmake-build-debug"
+CMake Error at CMakeLists.txt:7 (add_subdirectory):
+  The binary directory
+
+    X:/yaDisk/jiexamanya/Алексей/0. Проекты/ТТИТ/ОАИП/code/cmake-build-debug/lw2
+
+  is already used to build a source directory.  It cannot be used to build
+  source directory
+
+    X:/yaDisk/jiexamanya/Алексей/0. Проекты/ТТИТ/ОАИП/code/lw2
+
+  Specify a unique binary directory name.
+
+
+-- Configuring incomplete, errors occurred!

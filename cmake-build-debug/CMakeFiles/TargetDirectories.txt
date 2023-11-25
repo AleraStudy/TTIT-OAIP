@@ -1,0 +1,8 @@
+X:/yaDisk/jiexamanya/Алексей/0. Проекты/ТТИТ/ОАИП/code/cmake-build-debug/CMakeFiles/edit_cache.dir
+X:/yaDisk/jiexamanya/Алексей/0. Проекты/ТТИТ/ОАИП/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+X:/yaDisk/jiexamanya/Алексей/0. Проекты/ТТИТ/ОАИП/code/cmake-build-debug/lw1/CMakeFiles/lw1.dir
+X:/yaDisk/jiexamanya/Алексей/0. Проекты/ТТИТ/ОАИП/code/cmake-build-debug/lw1/CMakeFiles/edit_cache.dir
+X:/yaDisk/jiexamanya/Алексей/0. Проекты/ТТИТ/ОАИП/code/cmake-build-debug/lw1/CMakeFiles/rebuild_cache.dir
+X:/yaDisk/jiexamanya/Алексей/0. Проекты/ТТИТ/ОАИП/code/cmake-build-debug/lw2/CMakeFiles/lw2.dir
+X:/yaDisk/jiexamanya/Алексей/0. Проекты/ТТИТ/ОАИП/code/cmake-build-debug/lw2/CMakeFiles/edit_cache.dir
+X:/yaDisk/jiexamanya/Алексей/0. Проекты/ТТИТ/ОАИП/code/cmake-build-debug/lw2/CMakeFiles/rebuild_cache.dir
