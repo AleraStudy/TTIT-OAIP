@@ -9,12 +9,13 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10"
+						"string" : "3.26"
 					},
 					"projectIndex" : 0,
 					"source" : "."
@@ -48,6 +49,21 @@
 					[
 						1
 					]
+				},
+				{
+					"build" : "lw3",
+					"jsonFile" : "directory-lw3-Debug-5039795adc3ce753dcfb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lw3",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "Debug",
@@ -57,7 +73,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"directoryIndexes" : 
 					[
@@ -88,6 +105,18 @@
 					[
 						1
 					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "lw3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"targets" : 
@@ -105,6 +134,13 @@
 					"jsonFile" : "target-lw2-Debug-1f5da6ac54e823353d73.json",
 					"name" : "lw2",
 					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lw3::@91a63aa56819444e2049",
+					"jsonFile" : "target-lw3-Debug-9e9c617c30c8691008d6.json",
+					"name" : "lw3",
+					"projectIndex" : 3
 				}
 			]
 		}

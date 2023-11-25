@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "x:/yaDisk/jiexamanya/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/0. \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0422\u0422\u0418\u0422/\u041e\u0410\u0418\u041f/code/cmake-build-debug"
+			"value" : "x:/yaDisk/jiexamanya/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/0. \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0422\u0422\u0418\u0422/\u041e\u0410\u0418\u041f/code/lw3/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "X:/yaDisk/jiexamanya/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/0. \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0422\u0422\u0418\u0422/\u041e\u0410\u0418\u041f/code/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "X:/yaDisk/jiexamanya/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/0. \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0422\u0422\u0418\u0422/\u041e\u0410\u0418\u041f/code/lw3/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "X:/yaDisk/jiexamanya/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/0. \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0422\u0422\u0418\u0422/\u041e\u0410\u0418\u041f/code"
+			"value" : "X:/yaDisk/jiexamanya/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/0. \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0422\u0422\u0418\u0422/\u041e\u0410\u0418\u041f/code/lw3"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/lw1"
+			"value" : "C:/Program Files (x86)/lw3"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -795,7 +795,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "lw"
+			"value" : "lw3"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1282,7 +1282,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "lw1_BINARY_DIR",
+			"name" : "lw3_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1291,82 +1291,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "X:/yaDisk/jiexamanya/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/0. \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0422\u0422\u0418\u0422/\u041e\u0410\u0418\u041f/code/cmake-build-debug/lw1"
+			"value" : "X:/yaDisk/jiexamanya/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/0. \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0422\u0422\u0418\u0422/\u041e\u0410\u0418\u041f/code/lw3/cmake-build-debug"
 		},
 		{
-			"name" : "lw1_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "lw1_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "X:/yaDisk/jiexamanya/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/0. \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0422\u0422\u0418\u0422/\u041e\u0410\u0418\u041f/code/lw1"
-		},
-		{
-			"name" : "lw2_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "X:/yaDisk/jiexamanya/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/0. \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0422\u0422\u0418\u0422/\u041e\u0410\u0418\u041f/code/cmake-build-debug/lw2"
-		},
-		{
-			"name" : "lw2_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "lw2_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "X:/yaDisk/jiexamanya/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/0. \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0422\u0422\u0418\u0422/\u041e\u0410\u0418\u041f/code/lw2"
-		},
-		{
-			"name" : "lw_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "X:/yaDisk/jiexamanya/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/0. \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0422\u0422\u0418\u0422/\u041e\u0410\u0418\u041f/code/cmake-build-debug"
-		},
-		{
-			"name" : "lw_IS_TOP_LEVEL",
+			"name" : "lw3_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1378,7 +1306,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "lw_SOURCE_DIR",
+			"name" : "lw3_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1387,7 +1315,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "X:/yaDisk/jiexamanya/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/0. \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0422\u0422\u0418\u0422/\u041e\u0410\u0418\u041f/code"
+			"value" : "X:/yaDisk/jiexamanya/\u0410\u043b\u0435\u043a\u0441\u0435\u0439/0. \u041f\u0440\u043e\u0435\u043a\u0442\u044b/\u0422\u0422\u0418\u0422/\u041e\u0410\u0418\u041f/code/lw3"
 		}
 	],
 	"kind" : "cache",

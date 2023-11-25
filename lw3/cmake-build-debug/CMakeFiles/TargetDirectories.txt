@@ -1,0 +1,3 @@
+X:/yaDisk/jiexamanya/Алексей/0. Проекты/ТТИТ/ОАИП/code/lw3/cmake-build-debug/CMakeFiles/lw3.dir
+X:/yaDisk/jiexamanya/Алексей/0. Проекты/ТТИТ/ОАИП/code/lw3/cmake-build-debug/CMakeFiles/edit_cache.dir
+X:/yaDisk/jiexamanya/Алексей/0. Проекты/ТТИТ/ОАИП/code/lw3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
