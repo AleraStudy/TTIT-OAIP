@@ -1,8 +1,8 @@
-# Install script for directory: X:/yaDisk/jiexamanya/Алексей/0. Проекты/ТТИТ/ОАИП/code/lw1
+# Install script for directory: C:/Distr/Develop/study/ttit/oaip/lw1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/lw1")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/lw")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
