@@ -29,11 +29,11 @@ int main() {
     SetConsoleOutputCP(CP_UTF8);
     setlocale(LC_ALL,"ru-RU");
 
-    constexpr int max_length = 100;
-    char text[max_length] = {};
+    constexpr int maxLength = 100;
+    char text[maxLength] = {};
 
     cout << "Введите текст (не более 100 символов):" << endl;
-    cin.getline(text, max_length);
+    cin.getline(text, maxLength);
 
     removeDuplicates(text);
 
