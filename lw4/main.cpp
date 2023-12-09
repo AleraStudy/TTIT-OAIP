@@ -1,9 +1,10 @@
 #include <iostream>
 #include <map>
 #include <windows.h>
+using namespace std;
 
 void removeDuplicates(char text[]) {
-    std::map<char, bool> seen;
+    map<char, bool> seen;
     int readIndex = 0;
     int writeIndex = 0;
 
@@ -31,13 +32,13 @@ int main() {
     constexpr int max_length = 100;
     char text[max_length] = {};
 
-    std::cout << "Введите текст (не более 100 символов):" << std::endl;
-    std::cin.getline(text, max_length);
+    cout << "Введите текст (не более 100 символов):" << endl;
+    cin.getline(text, max_length);
 
     removeDuplicates(text);
 
-    std::cout << "Уникальные символы:" << std::endl;
-    std::cout << text << std::endl;
+    cout << "Уникальные символы:" << endl;
+    cout << text << endl;
 
     return 0;
 }
