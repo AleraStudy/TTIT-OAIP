@@ -16,6 +16,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Distr/Develop/study/ttit/oaip/lw2/CMakeLists.txt"
   "C:/Distr/Develop/study/ttit/oaip/lw3/CMakeLists.txt"
   "C:/Distr/Develop/study/ttit/oaip/lw4/CMakeLists.txt"
+  "C:/Distr/Develop/study/ttit/oaip/lw5/CMakeLists.txt"
   "C:/Users/jiexa/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake"
   "C:/Users/jiexa/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake"
   "C:/Users/jiexa/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake"
@@ -56,6 +57,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "lw2/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lw3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lw4/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lw5/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -64,4 +66,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "lw2/CMakeFiles/lw2.dir/DependInfo.cmake"
   "lw3/CMakeFiles/lw3.dir/DependInfo.cmake"
   "lw4/CMakeFiles/lw4.dir/DependInfo.cmake"
+  "lw5/CMakeFiles/lw5.dir/DependInfo.cmake"
   )

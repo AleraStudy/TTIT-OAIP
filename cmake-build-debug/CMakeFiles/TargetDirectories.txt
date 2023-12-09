@@ -12,3 +12,6 @@ C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw3/CMakeFiles/rebuild_cache.
 C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw4/CMakeFiles/lw4.dir
 C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw4/CMakeFiles/edit_cache.dir
 C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw4/CMakeFiles/rebuild_cache.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw5/CMakeFiles/lw5.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw5/CMakeFiles/edit_cache.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw5/CMakeFiles/rebuild_cache.dir

@@ -167,6 +167,19 @@ lw4/fast:
 	$(MAKE) $(MAKESILENT) -f lw4\CMakeFiles\lw4.dir\build.make lw4/CMakeFiles/lw4.dir/build
 .PHONY : lw4/fast
 
+#=============================================================================
+# Target rules for targets named lw5
+
+# Build rule for target.
+lw5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lw5
+.PHONY : lw5
+
+# fast build rule for target.
+lw5/fast:
+	$(MAKE) $(MAKESILENT) -f lw5\CMakeFiles\lw5.dir\build.make lw5/CMakeFiles/lw5.dir/build
+.PHONY : lw5/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -179,6 +192,7 @@ help:
 	@echo ... lw2
 	@echo ... lw3
 	@echo ... lw4
+	@echo ... lw5
 .PHONY : help
 
 

@@ -66,6 +66,7 @@ all: lw1/all
 all: lw2/all
 all: lw3/all
 all: lw4/all
+all: lw5/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +74,7 @@ preinstall: lw1/preinstall
 preinstall: lw2/preinstall
 preinstall: lw3/preinstall
 preinstall: lw4/preinstall
+preinstall: lw5/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -80,6 +82,7 @@ clean: lw1/clean
 clean: lw2/clean
 clean: lw3/clean
 clean: lw4/clean
+clean: lw5/clean
 .PHONY : clean
 
 #=============================================================================
@@ -141,6 +144,21 @@ lw4/preinstall:
 # Recursive "clean" directory target.
 lw4/clean: lw4/CMakeFiles/lw4.dir/clean
 .PHONY : lw4/clean
+
+#=============================================================================
+# Directory level rules for directory lw5
+
+# Recursive "all" directory target.
+lw5/all: lw5/CMakeFiles/lw5.dir/all
+.PHONY : lw5/all
+
+# Recursive "preinstall" directory target.
+lw5/preinstall:
+.PHONY : lw5/preinstall
+
+# Recursive "clean" directory target.
+lw5/clean: lw5/CMakeFiles/lw5.dir/clean
+.PHONY : lw5/clean
 
 #=============================================================================
 # Target rules for target lw1/CMakeFiles/lw1.dir
@@ -245,6 +263,32 @@ lw4: lw4/CMakeFiles/lw4.dir/rule
 lw4/CMakeFiles/lw4.dir/clean:
 	$(MAKE) $(MAKESILENT) -f lw4\CMakeFiles\lw4.dir\build.make lw4/CMakeFiles/lw4.dir/clean
 .PHONY : lw4/CMakeFiles/lw4.dir/clean
+
+#=============================================================================
+# Target rules for target lw5/CMakeFiles/lw5.dir
+
+# All Build rule for target.
+lw5/CMakeFiles/lw5.dir/all:
+	$(MAKE) $(MAKESILENT) -f lw5\CMakeFiles\lw5.dir\build.make lw5/CMakeFiles/lw5.dir/depend
+	$(MAKE) $(MAKESILENT) -f lw5\CMakeFiles\lw5.dir\build.make lw5/CMakeFiles/lw5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target lw5"
+.PHONY : lw5/CMakeFiles/lw5.dir/all
+
+# Build rule for subdir invocation for target.
+lw5/CMakeFiles/lw5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lw5/CMakeFiles/lw5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles 0
+.PHONY : lw5/CMakeFiles/lw5.dir/rule
+
+# Convenience name for target.
+lw5: lw5/CMakeFiles/lw5.dir/rule
+.PHONY : lw5
+
+# clean rule for target.
+lw5/CMakeFiles/lw5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lw5\CMakeFiles\lw5.dir\build.make lw5/CMakeFiles/lw5.dir/clean
+.PHONY : lw5/CMakeFiles/lw5.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

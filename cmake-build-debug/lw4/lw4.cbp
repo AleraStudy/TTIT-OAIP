@@ -5,7 +5,7 @@
 		<Option title="lw4"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lw1\;CMake Files\lw2\;CMake Files\lw3\;CMake Files\lw4\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lw1\;CMake Files\lw2\;CMake Files\lw3\;CMake Files\lw4\;CMake Files\lw5\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw4"/>
@@ -79,6 +79,9 @@
 		</Unit>
 		<Unit filename="C:/Distr/Develop/study/ttit/oaip/lw4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lw4\"/>
+		</Unit>
+		<Unit filename="C:/Distr/Develop/study/ttit/oaip/lw5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lw5\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
