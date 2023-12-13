@@ -1,0 +1,3 @@
+C:/Distr/Develop/study/ttit/oaip/lw6/cmake-build-debug/CMakeFiles/lw6.dir
+C:/Distr/Develop/study/ttit/oaip/lw6/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Distr/Develop/study/ttit/oaip/lw6/cmake-build-debug/CMakeFiles/rebuild_cache.dir

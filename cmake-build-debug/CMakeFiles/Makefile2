@@ -67,6 +67,10 @@ all: lw2/all
 all: lw3/all
 all: lw4/all
 all: lw5/all
+all: lw6/all
+all: lw7/all
+all: lw8/all
+all: lw9/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -75,6 +79,10 @@ preinstall: lw2/preinstall
 preinstall: lw3/preinstall
 preinstall: lw4/preinstall
 preinstall: lw5/preinstall
+preinstall: lw6/preinstall
+preinstall: lw7/preinstall
+preinstall: lw8/preinstall
+preinstall: lw9/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -83,6 +91,10 @@ clean: lw2/clean
 clean: lw3/clean
 clean: lw4/clean
 clean: lw5/clean
+clean: lw6/clean
+clean: lw7/clean
+clean: lw8/clean
+clean: lw9/clean
 .PHONY : clean
 
 #=============================================================================
@@ -159,6 +171,66 @@ lw5/preinstall:
 # Recursive "clean" directory target.
 lw5/clean: lw5/CMakeFiles/lw5.dir/clean
 .PHONY : lw5/clean
+
+#=============================================================================
+# Directory level rules for directory lw6
+
+# Recursive "all" directory target.
+lw6/all: lw6/CMakeFiles/lw6.dir/all
+.PHONY : lw6/all
+
+# Recursive "preinstall" directory target.
+lw6/preinstall:
+.PHONY : lw6/preinstall
+
+# Recursive "clean" directory target.
+lw6/clean: lw6/CMakeFiles/lw6.dir/clean
+.PHONY : lw6/clean
+
+#=============================================================================
+# Directory level rules for directory lw7
+
+# Recursive "all" directory target.
+lw7/all: lw7/CMakeFiles/lw7.dir/all
+.PHONY : lw7/all
+
+# Recursive "preinstall" directory target.
+lw7/preinstall:
+.PHONY : lw7/preinstall
+
+# Recursive "clean" directory target.
+lw7/clean: lw7/CMakeFiles/lw7.dir/clean
+.PHONY : lw7/clean
+
+#=============================================================================
+# Directory level rules for directory lw8
+
+# Recursive "all" directory target.
+lw8/all: lw8/CMakeFiles/lw8.dir/all
+.PHONY : lw8/all
+
+# Recursive "preinstall" directory target.
+lw8/preinstall:
+.PHONY : lw8/preinstall
+
+# Recursive "clean" directory target.
+lw8/clean: lw8/CMakeFiles/lw8.dir/clean
+.PHONY : lw8/clean
+
+#=============================================================================
+# Directory level rules for directory lw9
+
+# Recursive "all" directory target.
+lw9/all: lw9/CMakeFiles/lw9.dir/all
+.PHONY : lw9/all
+
+# Recursive "preinstall" directory target.
+lw9/preinstall:
+.PHONY : lw9/preinstall
+
+# Recursive "clean" directory target.
+lw9/clean: lw9/CMakeFiles/lw9.dir/clean
+.PHONY : lw9/clean
 
 #=============================================================================
 # Target rules for target lw1/CMakeFiles/lw1.dir
@@ -289,6 +361,110 @@ lw5: lw5/CMakeFiles/lw5.dir/rule
 lw5/CMakeFiles/lw5.dir/clean:
 	$(MAKE) $(MAKESILENT) -f lw5\CMakeFiles\lw5.dir\build.make lw5/CMakeFiles/lw5.dir/clean
 .PHONY : lw5/CMakeFiles/lw5.dir/clean
+
+#=============================================================================
+# Target rules for target lw6/CMakeFiles/lw6.dir
+
+# All Build rule for target.
+lw6/CMakeFiles/lw6.dir/all:
+	$(MAKE) $(MAKESILENT) -f lw6\CMakeFiles\lw6.dir\build.make lw6/CMakeFiles/lw6.dir/depend
+	$(MAKE) $(MAKESILENT) -f lw6\CMakeFiles\lw6.dir\build.make lw6/CMakeFiles/lw6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target lw6"
+.PHONY : lw6/CMakeFiles/lw6.dir/all
+
+# Build rule for subdir invocation for target.
+lw6/CMakeFiles/lw6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lw6/CMakeFiles/lw6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles 0
+.PHONY : lw6/CMakeFiles/lw6.dir/rule
+
+# Convenience name for target.
+lw6: lw6/CMakeFiles/lw6.dir/rule
+.PHONY : lw6
+
+# clean rule for target.
+lw6/CMakeFiles/lw6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lw6\CMakeFiles\lw6.dir\build.make lw6/CMakeFiles/lw6.dir/clean
+.PHONY : lw6/CMakeFiles/lw6.dir/clean
+
+#=============================================================================
+# Target rules for target lw7/CMakeFiles/lw7.dir
+
+# All Build rule for target.
+lw7/CMakeFiles/lw7.dir/all:
+	$(MAKE) $(MAKESILENT) -f lw7\CMakeFiles\lw7.dir\build.make lw7/CMakeFiles/lw7.dir/depend
+	$(MAKE) $(MAKESILENT) -f lw7\CMakeFiles\lw7.dir\build.make lw7/CMakeFiles/lw7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target lw7"
+.PHONY : lw7/CMakeFiles/lw7.dir/all
+
+# Build rule for subdir invocation for target.
+lw7/CMakeFiles/lw7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lw7/CMakeFiles/lw7.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles 0
+.PHONY : lw7/CMakeFiles/lw7.dir/rule
+
+# Convenience name for target.
+lw7: lw7/CMakeFiles/lw7.dir/rule
+.PHONY : lw7
+
+# clean rule for target.
+lw7/CMakeFiles/lw7.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lw7\CMakeFiles\lw7.dir\build.make lw7/CMakeFiles/lw7.dir/clean
+.PHONY : lw7/CMakeFiles/lw7.dir/clean
+
+#=============================================================================
+# Target rules for target lw8/CMakeFiles/lw8.dir
+
+# All Build rule for target.
+lw8/CMakeFiles/lw8.dir/all:
+	$(MAKE) $(MAKESILENT) -f lw8\CMakeFiles\lw8.dir\build.make lw8/CMakeFiles/lw8.dir/depend
+	$(MAKE) $(MAKESILENT) -f lw8\CMakeFiles\lw8.dir\build.make lw8/CMakeFiles/lw8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target lw8"
+.PHONY : lw8/CMakeFiles/lw8.dir/all
+
+# Build rule for subdir invocation for target.
+lw8/CMakeFiles/lw8.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lw8/CMakeFiles/lw8.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles 0
+.PHONY : lw8/CMakeFiles/lw8.dir/rule
+
+# Convenience name for target.
+lw8: lw8/CMakeFiles/lw8.dir/rule
+.PHONY : lw8
+
+# clean rule for target.
+lw8/CMakeFiles/lw8.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lw8\CMakeFiles\lw8.dir\build.make lw8/CMakeFiles/lw8.dir/clean
+.PHONY : lw8/CMakeFiles/lw8.dir/clean
+
+#=============================================================================
+# Target rules for target lw9/CMakeFiles/lw9.dir
+
+# All Build rule for target.
+lw9/CMakeFiles/lw9.dir/all:
+	$(MAKE) $(MAKESILENT) -f lw9\CMakeFiles\lw9.dir\build.make lw9/CMakeFiles/lw9.dir/depend
+	$(MAKE) $(MAKESILENT) -f lw9\CMakeFiles\lw9.dir\build.make lw9/CMakeFiles/lw9.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target lw9"
+.PHONY : lw9/CMakeFiles/lw9.dir/all
+
+# Build rule for subdir invocation for target.
+lw9/CMakeFiles/lw9.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lw9/CMakeFiles/lw9.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Distr\Develop\study\ttit\oaip\cmake-build-debug\CMakeFiles 0
+.PHONY : lw9/CMakeFiles/lw9.dir/rule
+
+# Convenience name for target.
+lw9: lw9/CMakeFiles/lw9.dir/rule
+.PHONY : lw9
+
+# clean rule for target.
+lw9/CMakeFiles/lw9.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lw9\CMakeFiles\lw9.dir\build.make lw9/CMakeFiles/lw9.dir/clean
+.PHONY : lw9/CMakeFiles/lw9.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

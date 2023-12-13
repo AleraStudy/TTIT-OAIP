@@ -5,7 +5,7 @@
 		<Option title="lw3"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lw1\;CMake Files\lw2\;CMake Files\lw3\;CMake Files\lw4\;CMake Files\lw5\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lw1\;CMake Files\lw2\;CMake Files\lw3\;CMake Files\lw4\;CMake Files\lw5\;CMake Files\lw6\;CMake Files\lw7\;CMake Files\lw8\;CMake Files\lw9\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw3"/>
@@ -82,6 +82,18 @@
 		</Unit>
 		<Unit filename="C:/Distr/Develop/study/ttit/oaip/lw5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lw5\"/>
+		</Unit>
+		<Unit filename="C:/Distr/Develop/study/ttit/oaip/lw6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lw6\"/>
+		</Unit>
+		<Unit filename="C:/Distr/Develop/study/ttit/oaip/lw7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lw7\"/>
+		</Unit>
+		<Unit filename="C:/Distr/Develop/study/ttit/oaip/lw8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lw8\"/>
+		</Unit>
+		<Unit filename="C:/Distr/Develop/study/ttit/oaip/lw9/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lw9\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

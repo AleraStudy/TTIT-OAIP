@@ -296,6 +296,42 @@ lw5_IS_TOP_LEVEL:STATIC=OFF
 lw5_SOURCE_DIR:STATIC=C:/Distr/Develop/study/ttit/oaip/lw5
 
 //Value Computed by CMake
+lw6_BINARY_DIR:STATIC=C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw6
+
+//Value Computed by CMake
+lw6_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+lw6_SOURCE_DIR:STATIC=C:/Distr/Develop/study/ttit/oaip/lw6
+
+//Value Computed by CMake
+lw7_BINARY_DIR:STATIC=C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw7
+
+//Value Computed by CMake
+lw7_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+lw7_SOURCE_DIR:STATIC=C:/Distr/Develop/study/ttit/oaip/lw7
+
+//Value Computed by CMake
+lw8_BINARY_DIR:STATIC=C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw8
+
+//Value Computed by CMake
+lw8_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+lw8_SOURCE_DIR:STATIC=C:/Distr/Develop/study/ttit/oaip/lw8
+
+//Value Computed by CMake
+lw9_BINARY_DIR:STATIC=C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw9
+
+//Value Computed by CMake
+lw9_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+lw9_SOURCE_DIR:STATIC=C:/Distr/Develop/study/ttit/oaip/lw9
+
+//Value Computed by CMake
 lw_BINARY_DIR:STATIC=C:/Distr/Develop/study/ttit/oaip/cmake-build-debug
 
 //Value Computed by CMake
@@ -415,7 +451,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

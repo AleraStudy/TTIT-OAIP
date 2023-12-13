@@ -17,6 +17,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Distr/Develop/study/ttit/oaip/lw3/CMakeLists.txt"
   "C:/Distr/Develop/study/ttit/oaip/lw4/CMakeLists.txt"
   "C:/Distr/Develop/study/ttit/oaip/lw5/CMakeLists.txt"
+  "C:/Distr/Develop/study/ttit/oaip/lw6/CMakeLists.txt"
+  "C:/Distr/Develop/study/ttit/oaip/lw7/CMakeLists.txt"
+  "C:/Distr/Develop/study/ttit/oaip/lw8/CMakeLists.txt"
+  "C:/Distr/Develop/study/ttit/oaip/lw9/CMakeLists.txt"
   "C:/Users/jiexa/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake"
   "C:/Users/jiexa/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake"
   "C:/Users/jiexa/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake"
@@ -58,6 +62,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "lw3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lw4/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lw5/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lw6/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lw7/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lw8/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lw9/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -67,4 +75,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "lw3/CMakeFiles/lw3.dir/DependInfo.cmake"
   "lw4/CMakeFiles/lw4.dir/DependInfo.cmake"
   "lw5/CMakeFiles/lw5.dir/DependInfo.cmake"
+  "lw6/CMakeFiles/lw6.dir/DependInfo.cmake"
+  "lw7/CMakeFiles/lw7.dir/DependInfo.cmake"
+  "lw8/CMakeFiles/lw8.dir/DependInfo.cmake"
+  "lw9/CMakeFiles/lw9.dir/DependInfo.cmake"
   )

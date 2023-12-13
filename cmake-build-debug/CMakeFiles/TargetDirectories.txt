@@ -15,3 +15,15 @@ C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw4/CMakeFiles/rebuild_cache.
 C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw5/CMakeFiles/lw5.dir
 C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw5/CMakeFiles/edit_cache.dir
 C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw5/CMakeFiles/rebuild_cache.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw6/CMakeFiles/lw6.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw6/CMakeFiles/edit_cache.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw6/CMakeFiles/rebuild_cache.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw7/CMakeFiles/lw7.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw7/CMakeFiles/edit_cache.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw7/CMakeFiles/rebuild_cache.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw8/CMakeFiles/lw8.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw8/CMakeFiles/edit_cache.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw8/CMakeFiles/rebuild_cache.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw9/CMakeFiles/lw9.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw9/CMakeFiles/edit_cache.dir
+C:/Distr/Develop/study/ttit/oaip/cmake-build-debug/lw9/CMakeFiles/rebuild_cache.dir
