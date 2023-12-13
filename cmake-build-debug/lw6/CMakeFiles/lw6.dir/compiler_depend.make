@@ -57,6 +57,7 @@ lw6/CMakeFiles/lw6.dir/main.cpp.obj: C:/Distr/Develop/study/ttit/oaip/lw6/main.c
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h \
+  C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
@@ -72,8 +73,11 @@ lw6/CMakeFiles/lw6.dir/main.cpp.obj: C:/Distr/Develop/study/ttit/oaip/lw6/main.c
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
+  C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
+  C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
+  C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
@@ -115,9 +119,11 @@ lw6/CMakeFiles/lw6.dir/main.cpp.obj: C:/Distr/Develop/study/ttit/oaip/lw6/main.c
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
+  C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
+  C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
@@ -133,6 +139,8 @@ lw6/CMakeFiles/lw6.dir/main.cpp.obj: C:/Distr/Develop/study/ttit/oaip/lw6/main.c
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+  C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
+  C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
@@ -159,7 +167,9 @@ lw6/CMakeFiles/lw6.dir/main.cpp.obj: C:/Distr/Develop/study/ttit/oaip/lw6/main.c
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cetintrin.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/cldemoteintrin.h \
   C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clflushoptintrin.h \
@@ -422,6 +432,8 @@ C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-m
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
 
+C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale:
+
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmi2intrin.h:
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/dlgs.h:
@@ -514,6 +526,8 @@ C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-m
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h:
 
+C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h:
+
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h:
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmiintrin.h:
@@ -542,6 +556,8 @@ C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-m
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512ifmavlintrin.h:
 
+C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
+
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512pfintrin.h:
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h:
@@ -566,8 +582,6 @@ C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-m
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vnnivlintrin.h:
 
-C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h:
-
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vpopcntdqintrin.h:
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xtestintrin.h:
@@ -587,6 +601,8 @@ C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/i
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h:
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm:
+
+C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h:
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/debugapi.h:
 
@@ -618,6 +634,8 @@ C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-m
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h:
 
+C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h:
+
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functional_hash.h:
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h:
@@ -634,7 +652,17 @@ C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-m
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc:
 
+C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h:
+
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc:
+
+C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/unknwnbase.h:
+
+C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h:
+
+C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h:
+
+C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc:
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/popcntintrin.h:
 
@@ -756,6 +784,10 @@ C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-m
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale:
 
+C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt:
+
+C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime:
+
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar:
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/servprov.h:
@@ -801,6 +833,8 @@ C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-m
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream:
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream:
+
+C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits:
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/fileapi.h:
 
@@ -1128,8 +1162,6 @@ C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/i
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h:
 
-C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h:
-
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h:
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/winnetwk.h:
@@ -1175,8 +1207,6 @@ C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/i
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/timeapi.h:
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/unknwn.h:
-
-C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/unknwnbase.h:
 
 C:/Users/jiexa/AppData/Local/Programs/CLion\ Nova/bin/mingw/x86_64-w64-mingw32/include/urlmon.h:
 
