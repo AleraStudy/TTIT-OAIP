@@ -1,22 +1,27 @@
+#include <algorithm>
 #include <iostream>
 #include <sstream>
 #include <vector>
-#include <algorithm>
+#include <limits>
+#include <locale>
+#include <codecvt>
 #include <windows.h>
 
 using namespace std;
 
-bool checkIsVowelContains(const string& word) {
-    const string vowels = "aeiouAEIOUаеёиоуыэюяАЕЁИОУЫЭЮЯ";
-    return any_of(word.begin(), word.end(), [&](char c) {
-        return vowels.find(c) != string::npos;
-    });
+bool isVowel(wchar_t c) {
+    const wstring vowels = L"aeiouAEIOUаеёиоуыэюяАЕЁИОУЫЭЮЯ";
+    return vowels.find(c) != wstring::npos;
 }
 
-vector<string> splitIntoWords(const string& text) {
-    stringstream ss(text);
-    vector<string> words;
-    string word;
+bool checkIsVowelContains(const wstring& word) {
+    return any_of(word.begin(), word.end(), isVowel);
+}
+
+vector<wstring> splitIntoWords(const wstring& text) {
+    wstringstream ss(text);
+    vector<wstring> words;
+    wstring word;
 
     while (ss >> word) {
         words.push_back(word);
@@ -26,31 +31,53 @@ vector<string> splitIntoWords(const string& text) {
 }
 
 int main() {
+    // Включаем поддержку UTF-8
+    locale::global(locale(locale::classic(), new codecvt_utf8<wchar_t>));
+    wcin.imbue(locale());
+    wcout.imbue(locale());
+
     SetConsoleOutputCP(CP_UTF8);
-    setlocale(LC_ALL,"ru-RU");
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-    string text;
-    cout << "Введите несколько слов:\n";
-    getline(cin, text);
+    do {
+        wstring text;
+        wcout << L"Введите несколько слов:\n" << flush;
+        getline(wcin, text);
 
-    vector<string> words = splitIntoWords(text);
-    auto const wordsCount = words.size();
+        for (wchar_t c: text) {
+            bool isVowelChar = isVowel(c);
+            if (!isVowelChar) {
+                int a = 1;
+            }
+            wcout << c << L" " << (isVowelChar ? "- vovel" : "- not vowel") << "\n";
+        }
 
-    if (wordsCount < 1) {
-        cout << "Не нашлось ни одного слова!";
-        return 1;
-    }
+        vector<wstring> words = splitIntoWords(text);
+        auto const wordsCount = words.size();
 
-    int wordNumber;
-    cout << "Введите номер слова для проверки на гласные (от 1 до " << wordsCount << "):\n";
-    cin >> wordNumber;
-    if (wordNumber > 0 && wordNumber <= wordsCount) {
-        bool isVovewContains = checkIsVowelContains(words[wordNumber - 1]);
-        cout << (isVovewContains ? "Есть гласные" : "Нет гласных") << endl;
-    } else {
-        cout << "Неверный номер слова!";
-        return 1;
-    }
+        if (wordsCount < 1) {
+            wcout << L"Не нашлось ни одного слова!\n";
+            continue;
+        }
+
+        int wordNumber;
+        wcout << L"Введите номер слова для проверки на гласные (от 1 до " << wordsCount << L"):\n" << flush;
+        wcin >> wordNumber;
+
+        // Очистка и синхронизация потока ввода
+        wcin.ignore(numeric_limits<streamsize>::max(), L'\n');
+        wcin.clear();
+
+        if (wordNumber > 0 && wordNumber <= wordsCount) {
+            bool isVowelContains = checkIsVowelContains(words[wordNumber - 1]);
+            cout << (isVowelContains ? "Есть гласные" : "Нет гласных") << endl;
+        } else {
+            wcout << L"Неверный номер слова!\n";
+            continue;
+        }
+
+    } while (false);
 
     return 0;
 }
