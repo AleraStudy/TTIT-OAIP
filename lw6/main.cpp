@@ -18,7 +18,7 @@ bool checkIsVowelContains(const wstring& word) {
     return any_of(word.begin(), word.end(), isVowel);
 }
 
-vector<wstring> splitIntoWords(const wstring& text) {
+vector<wstring> splitStringToWords(const wstring& text) {
     wstringstream ss(text);
     vector<wstring> words;
     wstring word;
@@ -31,29 +31,20 @@ vector<wstring> splitIntoWords(const wstring& text) {
 }
 
 int main() {
-    // Включаем поддержку UTF-8
     locale::global(locale(locale::classic(), new codecvt_utf8<wchar_t>));
     wcin.imbue(locale());
     wcout.imbue(locale());
 
     SetConsoleOutputCP(CP_UTF8);
     ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+    wcin.tie(NULL);
 
     do {
         wstring text;
         wcout << L"Введите несколько слов:\n" << flush;
         getline(wcin, text);
 
-        for (wchar_t c: text) {
-            bool isVowelChar = isVowel(c);
-            if (!isVowelChar) {
-                int a = 1;
-            }
-            wcout << c << L" " << (isVowelChar ? "- vovel" : "- not vowel") << "\n";
-        }
-
-        vector<wstring> words = splitIntoWords(text);
+        vector<wstring> words = splitStringToWords(text);
         auto const wordsCount = words.size();
 
         if (wordsCount < 1) {
@@ -71,7 +62,7 @@ int main() {
 
         if (wordNumber > 0 && wordNumber <= wordsCount) {
             bool isVowelContains = checkIsVowelContains(words[wordNumber - 1]);
-            cout << (isVowelContains ? "Есть гласные" : "Нет гласных") << endl;
+            wcout << (isVowelContains ? L"Есть гласные" : L"Нет гласных") << endl;
         } else {
             wcout << L"Неверный номер слова!\n";
             continue;
