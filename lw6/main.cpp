@@ -42,7 +42,7 @@ int main() {
     do {
         wstring text;
         wcout << L"Введите несколько слов:\n" << flush;
-        getline(wcin, text);
+        getline(wcin, text, L'\n');
 
         vector<wstring> words = splitStringToWords(text);
         auto const wordsCount = words.size();
