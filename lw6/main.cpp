@@ -2,7 +2,6 @@
 #include <iostream>
 #include <sstream>
 #include <vector>
-#include <locale>
 #include <windows.h>
 
 using namespace std;
