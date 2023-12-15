@@ -4,60 +4,59 @@
 #include <windows.h>
 using namespace std;
 
-int main()
-{
-    SetConsoleOutputCP(CP_UTF8);
-    setlocale(LC_ALL,"ru-RU");
-
-    int n, m;
-    cout << "Введите размеры матрицы N и M: ";
-    cin >> n >> m;
-
-    // Dynamic memory allocation
+int** createAndFillMatrix(const int n, const int m) {
     const auto matrix = new int*[n];
     for (int i = 0; i < n; i++) {
         matrix[i] = new int[m];
-    }
-
-    // Fill the matrix with random numbers
-    cout << "Исходная матрица:" << endl;
-    for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
             matrix[i][j] = rand() % 100;
             cout << setw(4) << matrix[i][j];
         }
         cout << endl;
     }
+    return matrix;
+}
 
-    // Find the maximum below the secondary diagonal and the minimum above the main diagonal
-    int maxBelowSecondaryDiag = INT_MIN;
-    int minAboveMainDiag = INT_MAX;
+void findMaxMinElements(const int** matrix, const int n, const int m, int& maxBelow, int& minAbove) {
+    maxBelow = INT_MIN;
+    minAbove = INT_MAX;
 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
-            // Below the secondary diagonal
-            if (i + j > m - 1) {
-                if (matrix[i][j] > maxBelowSecondaryDiag) {
-                    maxBelowSecondaryDiag = matrix[i][j];
-                }
+            if (i + j > m - 1 && matrix[i][j] > maxBelow) {
+                maxBelow = matrix[i][j];
             }
-            // Above the main diagonal
-            if (j > i) {
-                if (matrix[i][j] < minAboveMainDiag) {
-                    minAboveMainDiag = matrix[i][j];
-                }
+            if (j > i && matrix[i][j] < minAbove) {
+                minAbove = matrix[i][j];
             }
         }
     }
+}
 
-    cout << "Максимальный элемент ниже побочной диагонали: " << maxBelowSecondaryDiag << endl;
-    cout << "Минимальный элемент выше главной диагонали: " << minAboveMainDiag << endl;
-
-    // Free memory
+void freeMatrixMemory(int** matrix, const int n) {
     for (int i = 0; i < n; i++) {
         delete[] matrix[i];
     }
     delete[] matrix;
+}
+
+int main() {
+    SetConsoleOutputCP(CP_UTF8);
+    setlocale(LC_ALL, "ru-RU");
+
+    int n, m;
+    cout << "Введите размеры матрицы N и M: " << endl;
+    cin >> n >> m;
+
+    int** matrix = createAndFillMatrix(n, m);
+
+    int maxBelowSecondaryDiag, minAboveMainDiag;
+    findMaxMinElements((const int**)matrix, n, m, maxBelowSecondaryDiag, minAboveMainDiag);
+
+    cout << "Максимальный элемент ниже побочной диагонали: " << maxBelowSecondaryDiag << endl;
+    cout << "Минимальный элемент выше главной диагонали: " << minAboveMainDiag << endl;
+
+    freeMatrixMemory(matrix, n);
 
     return 0;
 }
