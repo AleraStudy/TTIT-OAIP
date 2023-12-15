@@ -1,4 +1,0 @@
-ToolSet: 11.0 w64 (local)@C:\Users\jiexa\AppData\Local\Programs\CLion Nova\bin\mingw
-Options: 
-
-Options:
