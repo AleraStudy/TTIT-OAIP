@@ -53,8 +53,21 @@ int main() {
     int maxBelowSecondaryDiag, minAboveMainDiag;
     findMaxMinElements((const int**)matrix, n, m, maxBelowSecondaryDiag, minAboveMainDiag);
 
-    cout << "Максимальный элемент ниже побочной диагонали: " << maxBelowSecondaryDiag << endl;
-    cout << "Минимальный элемент выше главной диагонали: " << minAboveMainDiag << endl;
+    cout << "Максимальный элемент ниже побочной диагонали: ";
+    if (n > 1)
+    {
+        cout << maxBelowSecondaryDiag << endl;
+    } else {
+        cout << "некорректный размер массива" << endl;
+    }
+
+    cout << "Минимальный элемент выше главной диагонали: ";
+    if (m > 1)
+    {
+        cout << minAboveMainDiag << endl;
+    } else {
+        cout << "некорректный размер массива" << endl;
+    }
 
     freeMatrixMemory(matrix, n);
 
