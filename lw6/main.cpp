@@ -8,7 +8,7 @@
 using namespace std;
 
 bool isVowel(char c) {
-    const string vowels = "aeiouAEIOU";
+    const string vowels = "aeiouyAEIOUY";
     return vowels.find(c) != string::npos;
 }
 
