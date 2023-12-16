@@ -34,11 +34,11 @@ int main() {
     cout << "Введите несколько слов (только латиница):" << endl;
     getline(cin, text);
 
-    vector<string> words = splitStringToWords(text);
+    const vector<string> words = splitStringToWords(text);
     auto const wordsCount = words.size();
 
     if (wordsCount < 1) {
-        cout << "Не нашлось ни одного слова!\n";
+        cout << "Не нашлось ни одного слова!" <<  endl;
         return 1;
     }
 
@@ -50,7 +50,7 @@ int main() {
         bool isVowelContains = checkIsVowelContains(words[wordNumber - 1]);
         cout << (isVowelContains ? "Есть гласные" : "Нет гласных") << endl;
     } else {
-        cout << "Неверный номер слова!\n";
+        cout << "Неверный номер слова!" << endl;
         return 1;
     }
 
