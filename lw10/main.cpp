@@ -10,9 +10,7 @@ int recursiveMultiply(int a, int b) {
     if (b % 2 == 0) {
         return 2 * recursiveMultiply(a, b / 2);
     }
-    else {
-        return a + recursiveMultiply(a, b - 1);
-    }
+    return a + recursiveMultiply(a, b - 1);
 }
 
 int main() {

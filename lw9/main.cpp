@@ -58,7 +58,7 @@ int main() {
     {
         cout << maxBelowSecondaryDiag << endl;
     } else {
-        cout << "некорректный размер массива" << endl;
+        cout << "некорректный размер матрицы" << endl;
     }
 
     cout << "Минимальный элемент выше главной диагонали: ";
@@ -66,7 +66,7 @@ int main() {
     {
         cout << minAboveMainDiag << endl;
     } else {
-        cout << "некорректный размер массива" << endl;
+        cout << "некорректный размер матрицы" << endl;
     }
 
     freeMatrixMemory(matrix, n);
