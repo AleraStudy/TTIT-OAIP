@@ -37,7 +37,6 @@ int main() {
         {5, "Ufa", 22, 60},
         {5, "Sochi", 24, 40},
         {5, "Ufa", 23, 150},
-
     };
 
     cout << "Информация об имеющихся поездах (данные дня оператора):" << endl;
@@ -67,7 +66,7 @@ int main() {
     const int trainIndex = findSuitableTrain(trains, trainEntriesCount, day, destination, time, seats);
 
     if (trainIndex != -1) {
-        cout << "Нашёлся подходящий рейс: №" << trainIndex + 1 << " по в пункт " << trains[trainIndex].destination <<
+        cout << "Нашёлся подходящий рейс: №" << trainIndex + 1 << ", следующий в пункт " << trains[trainIndex].destination <<
                 ", отправление в " << trains[trainIndex].time << endl;
     } else {
         cout << "Место не найдено" << endl;
