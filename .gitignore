@@ -10,7 +10,9 @@
 /lw9/cmake-build-debug/
 /lw10/cmake-build-debug/
 /lw11/cmake-build-debug/
-/lw12/cmake-build-debug/
+/lw12/StringLibrary/cmake-build-debug/
+/lw12/StringLibrary/cmake-build-release/
+/lw12/StringClient/cmake-build-debug/
 /lw13/cmake-build-debug/
 /lw14/cmake-build-debug/
 /lw15/cmake-build-debug/
@@ -30,7 +32,8 @@
 /lw9/.idea/
 /lw10/.idea/
 /lw11/.idea/
-/lw12/.idea/
+/lw12/StringLibrary/.idea/
+/lw12/StringClient/.idea/
 /lw13/.idea/
 /lw14/.idea/
 /lw15/.idea/
