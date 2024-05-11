@@ -4,30 +4,22 @@
 
 using namespace std;
 
-// Определение структуры узла
 struct Node {
-    int value;  // Значение, хранящееся в узле
-    Node* next; // Указатель на следующий узел в списке
-
-    // Конструктор для инициализации узла
+    int value;
+    Node* next;
     explicit Node(int val) : value(val), next(nullptr) {}
 };
 
-// Определение структуры стека
 struct Stack {
-    Node* top; // Указатель на вершину стека
-
-    // Конструктор для инициализации стека
+    Node* top;
     Stack() : top(nullptr) {}
 
-    // Функция для добавления элемента в стек
     void push(int value) {
         Node* newNode = new Node(value);
         newNode->next = top;
         top = newNode;
     }
 
-    // Функция для удаления элемента из стека
     int pop() {
         if (isEmpty()) {
             cerr << "Стек пуст" << endl;
@@ -40,7 +32,6 @@ struct Stack {
         return poppedValue;
     }
 
-    // Проверка пуст ли стек
     [[nodiscard]] bool isEmpty() const {
         return top == nullptr;
     }
@@ -63,7 +54,6 @@ int findMin(Stack& stack) {
         tempStack.push(current);
     }
 
-    // Возвращаем элементы обратно в исходный стек
     while (!tempStack.isEmpty()) {
         stack.push(tempStack.pop());
     }
@@ -71,17 +61,12 @@ int findMin(Stack& stack) {
     return min;
 }
 
-int main() {
-    SetConsoleOutputCP(CP_UTF8);
-    setlocale(LC_ALL, "ru-RU");
-
-    Stack stack;
+void readStackInput(Stack& stack) {
+    cout << "Введите элементы стека (целые числа). Для завершения ввода введите 'q':" << endl;
     string input;
 
-    cout << "Введите элементы стека (целые числа). Для завершения ввода введите 'q':" << endl;
-
     while (true) {
-        cout << "Элемент стека: ";
+        cout << "Элемент стека:" << endl;
         cin >> input;
 
         if (input == "q" || input == "Q") {
@@ -96,11 +81,18 @@ int main() {
             cerr << "Ошибка ввода. Введите целое число или 'q' для завершения." << endl;
         }
     }
+}
+
+int main() {
+    SetConsoleOutputCP(CP_UTF8);
+    setlocale(LC_ALL, "ru-RU");
+
+    Stack stack;
+    readStackInput(stack);
 
     if (stack.isEmpty()) {
         cout << "Стек пуст. Наименьший элемент не найден." << endl;
-    }
-    else {
+    } else {
         int min = findMin(stack);
         cout << "Наименьший элемент: " << min << endl;
     }
