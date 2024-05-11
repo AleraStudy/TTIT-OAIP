@@ -3,26 +3,20 @@
 
 using namespace std;
 
-// Определение структуры узла
 struct Node {
-    int data;     // Данные, хранящиеся в узле
-    Node* prev;   // Указатель на предыдущий узел
-    Node* next;   // Указатель на следующий узел
+    int data;
+    Node* prev;
+    Node* next;
 };
 
-// Класс, представляющий очередь на базе двусвязного списка
 class Queue {
 private:
-    Node* front;  // Указатель на первый элемент очереди
-    Node* rear;   // Указатель на последний элемент очереди
+    Node* front;
+    Node* rear;
 
 public:
-    Queue() {
-        front = nullptr;
-        rear = nullptr;
-    }
+    Queue() : front(nullptr), rear(nullptr) {}
 
-    // Функция для добавления элемента в очередь
     void enqueue(int value) {
         Node* newNode = new Node;
         newNode->data = value;
@@ -39,7 +33,6 @@ public:
         }
     }
 
-    // Функция для удаления элемента из очереди
     void dequeue() {
         if (isEmpty()) {
             cout << "Очередь пуста. Удаление невозможно." << endl;
@@ -58,7 +51,6 @@ public:
         delete temp;
     }
 
-    // Функция для получения первого элемента очереди
     int peek() {
         if (isEmpty()) {
             cout << "Очередь пуста." << endl;
@@ -68,12 +60,10 @@ public:
         return front->data;
     }
 
-    // Функция для проверки, пуста ли очередь
     bool isEmpty() {
         return front == nullptr;
     }
 
-    // Функция для отображения элементов очереди
     void display() {
         if (isEmpty()) {
             cout << "Очередь пуста." << endl;
@@ -89,31 +79,31 @@ public:
     }
 };
 
+void readQueueInput(Queue& queue) {
+    cout << "Введите элементы очереди (целые числа). Для завершения ввода введите 'q':" << endl;
+    string input;
+
+    while (true) {
+        cout << "Элемент очереди:" << endl;
+        cin >> input;
+        if (input == "q" || input == "Q") {
+            break;
+        }
+        try {
+            int value = stoi(input);
+            queue.enqueue(value);
+        } catch (const invalid_argument& e) {
+            cerr << "Ошибка ввода. Введите целое число или 'q' для завершения." << endl;
+        }
+    }
+}
+
 int main() {
     SetConsoleOutputCP(CP_UTF8);
     setlocale(LC_ALL, "ru-RU");
 
     Queue queue;
-    string input;
-
-    cout << "Введите элементы очереди (целые числа). Для завершения ввода введите 'q':" << endl;
-
-    while (true) {
-        cout << "Элемент очереди: ";
-        cin >> input;
-
-        if (input == "q" || input == "Q") {
-            break;
-        }
-
-        try {
-            int value = stoi(input);
-            queue.enqueue(value);
-        }
-        catch (const invalid_argument& e) {
-            cerr << "Ошибка ввода. Введите целое число или 'q' для завершения." << endl;
-        }
-    }
+    readQueueInput(queue);
 
     cout << "Очередь: ";
     queue.display();
